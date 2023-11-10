@@ -1,0 +1,126 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1635px;
+    
+    flex-direction: column;
+  }
+  
+  .container div {
+    
+    font-size: 25px;
+    padding: 30px;
+    justify-content: space-evenly;
+    color: rgb(0, 0, 0);
+    
+    margin: 0px 5px;
+  }
+  .container div.item1 {
+    display: flex;
+    background: rgb(100, 19, 241);
+  }
+  .container div.item2 {
+    flex: 1;
+    background: rgb(185, 177, 243);
+  }
+  
+  .container div.item3 {
+    background: rgb(224, 221, 239);
+  }
+  .container div.item4 {
+    height: 80px;
+    background: rgb(100, 19, 241);
+    display: flex;
+    flex-direction: column;
+  }
+  .container div.item6 {
+    margin: 0px 0px 50px 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .container div.item8 {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 0px 0px 0px;
+  }
+  
+  .container div.item7 {
+    flex: 1;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .container div.item9 {
+    margin: 0px 0px 0px 0px;
+    width: 93%;
+
+    flex: 1;
+    background: rgb(0, 102, 255);
+  }
+  
+  .container div.item10 {
+    margin: 0px 0px 0px 0px;
+    padding: 0%;
+    flex-basis: 50%;
+    flex:200;
+    width: 100%;
+    font-family: 'Castellar', sans-serif;
+  }
+  .container div.item14 {
+    background: rgb(185, 177, 243);
+    height: 200px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .container div.item15 {
+    background: rgb(185, 177, 243);
+    height: 200px;
+    flex: 1;
+    text-align: center;
+  }
+  .container div.item16 {
+    background: rgb(185, 177, 243);
+    height: 200px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .container div.item11 {
+    background: rgb(185, 177, 243);
+    height: 6000px;
+    margin: 0px 0px 0px 0px;
+    width: 92%;
+    .right-align {
+      text-align: right;
+    }
+  }
+  
+  .container .item12 {
+    display: flex;
+    padding: 0%;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  .container .item13 {
+    display: flex;
+    padding: 0%;
+    flex-direction: column;
+    height: 900px;
+    flex: 1;
+  }
+  .container div.item17 {
+    height: 100px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  a {
+    text-decoration: none;
+  }
